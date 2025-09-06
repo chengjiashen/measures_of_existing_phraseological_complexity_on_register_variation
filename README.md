@@ -1,1 +1,1 @@
-# measures_of_existing_phraseological_complexity_on_register_variation
+This repository contains the Python scripts employed in Study I. The objective of Study I is to examine the extent to which existing measures of phraseological complexity (e.g., Paquot, 2019) can be applied within the framework of register variation
