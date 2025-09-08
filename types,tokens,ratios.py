@@ -124,3 +124,4 @@ print(f"Token dobj: mean: {rounded(numpy.mean(means_dobj_token))}, median: {roun
 print(f"Ratios amod: mean: {round(numpy.mean(means_amod_ratio), 4)}, median: {round(numpy.median(means_amod_ratio), 3)}, standard deviation: {round(numpy.std(means_amod_ratio), 3)}, IQR: {numpy.percentile(means_amod_ratio, 75) - numpy.percentile(means_amod_ratio, 25)}")
 print(f"Ratios advmod: mean: {round(numpy.mean(means_advmod_ratio), 4)}, median: {round(numpy.median(means_advmod_ratio), 3)}, standard deviation: {round(numpy.std(means_advmod_ratio), 3)}, IQR: {numpy.percentile(means_advmod_ratio, 75) - numpy.percentile(means_advmod_ratio, 25)}")
 print(f"Ratios dobj: mean: {round(numpy.mean(means_dobj_ratio), 4)}, median: {round(numpy.median(means_dobj_ratio), 3)}, standard deviation: {round(numpy.std(means_dobj_ratio), 3)}, IQR: {numpy.percentile(means_dobj_ratio, 75) - numpy.percentile(means_dobj_ratio, 25)}\n")
+
