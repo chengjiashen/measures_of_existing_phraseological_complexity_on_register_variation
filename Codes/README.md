@@ -6,6 +6,6 @@ txt_split.py: This scrip splits the txt files into manageable subfiles that can 
 
 refernce_corpora_processing.py: This script extracts lemmas and two-word occurrences of amod, advmod, and dobj dependency relationships from any raw reference corpora.
 
-MI_comparisons.py: This scrip extracts two-word combinations of amod, advmod, and dobj dependencies and employs the moving window approach as in the analysis of phraseological diversity (types_tokens_ratios.py) to calculate the pointwise mutual information (MI) scores based on a reference corpus (in this case, COCA Academic).
+MI_comparisons.py: This scrip extracts two-word combinations of amod, advmod, and dobj dependencies and employs the moving window approach as in the analysis of phraseological diversity (types_tokens_ratios.py) to calculate the pointwise mutual information (MI) scores based on a reference corpus (in this case, ENCOW16AX).
 
 ENCOW_processing: This scrip extracts all two-word combinations of amod, advmod, and dobj dependencies and lemmas from the processed reference ENCOW16AX corpus.
