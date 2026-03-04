@@ -9,3 +9,5 @@ refernce_corpora_processing.py: This script extracts lemmas and two-word occurre
 MI_comparisons.py: This scrip extracts two-word combinations of amod, advmod, and dobj dependencies and employs the moving window approach as in the analysis of phraseological diversity (types_tokens_ratios.py) to calculate the pointwise mutual information (MI) scores based on a reference corpus (in this case, ENCOW16AX).
 
 ENCOW_processing: This scrip extracts all two-word combinations of amod, advmod, and dobj dependencies and lemmas from the processed reference ENCOW16AX corpus.
+
+ENCOW_Dispersion: This scrip extracts all amod, advmod_v, and dobj word combinations based on year information from ENCOW16AX. This will be later used for dispersion calculations.
